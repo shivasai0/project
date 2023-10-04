@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+}
+h1{
+text-align:center;
+}
+nav {
+  background-color:brown;
+border:black 2px solid;
+border-radius:100px;
+
+width:100%;
+height:50px;
+text-align:center;
+display:block;
+}
+nav a{
+text-decoration:none;
+
+justify-content:center;
+
+}
+.shiva{
+ background-color:red;
+margin:20px;
+width:60px;
+float:left;
+border-radius:30px;
+ 
+}
+.shiva:hover{
+ background-color:pink;
+}
